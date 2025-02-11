@@ -1,0 +1,23 @@
+{
+    "dynamics": "HarmonicOscillator",
+    "dim": 2,
+    "num_data": 1000,
+    "alpha": 0.2,
+    "gamma": 0,
+    "batch_size": 1000,
+    "epochs": 1000,
+    "sums": 2,
+    "Opt_scheme":"Momentum_CBO",
+    "store_steps":100,
+    "input_range":2,
+    "CBO_params":{
+        "N_CBO":300,
+        "M_CBO":300,
+        "beta_CBO":1,
+        "lambda_CBO":1,
+        "sigma_CBO":0.99,
+        "l1reg":0,
+        "decay_rate":2,
+        "learning_rate":0.01
+    }
+}

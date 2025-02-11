@@ -1,0 +1,17 @@
+{
+    "dynamics": "Pendulum",
+    "dim": 2,
+    "num_data": 10000,
+    "alpha": 0.2,
+    "gamma": 0,
+    "batch_size": 1000,
+    "epochs": 1000,
+    "store_steps":1000,
+    "input_range":3,
+    "sums": 2,
+    "Opt_scheme":"GradDesc",
+    "GD_params":{
+        "l1reg": 0,
+        "learning_rate":0.001
+    }
+}

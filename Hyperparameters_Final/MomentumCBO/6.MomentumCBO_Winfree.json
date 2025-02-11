@@ -1,0 +1,23 @@
+{
+    "dynamics": "Winfree",
+    "dim": 2,
+    "num_data": 5000,
+    "alpha": 0.2,
+    "gamma": 0.1,
+    "batch_size": 5000,
+    "epochs": 1500,
+    "sums": 2,
+    "Opt_scheme":"Momentum_CBO",
+    "store_steps":100,
+    "input_range":0.5,
+    "CBO_params":{
+        "N_CBO":300,
+        "M_CBO":300,
+        "beta_CBO":1,
+        "lambda_CBO":1,
+        "sigma_CBO":0.99,
+        "l1reg":0,
+        "decay_rate":20,
+        "learning_rate":0.01
+    }
+}
